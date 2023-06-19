@@ -1,0 +1,21 @@
+<%-  include('parts/header.ejs') %>
+
+<%-  include('parts/navbar.ejs') %>
+<!-- <input type="hidden" id="myId" name="myid" value="<%= isUser %>"> -->
+<!-- <p class="alert alert-success">
+     main page 
+</p> -->
+<div class="container">
+     <div id="onlineFriends" >
+     
+     </div>
+</div>
+
+
+<%- include('parts/scripts.ejs') %>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/sockets/init.js"></script>
+<script src="/js/sockets/home.js"></script>
+
+</body>
+</html>
